@@ -1,7 +1,7 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-branch = 'master'
-gem 'spree', github: 'spree/spree', branch: branch
-gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: branch
+gem "solidus_core", "~> 2.0.0"
+gem "solidus_frontend", "~> 2.0.0"
+gem "solidus_auth_devise"
 
 gemspec

@@ -1,4 +1,4 @@
-Spree.fetch_recently_viewed_products = (productId = "")->
+Spree.fetch_recently_viewed_products = (productId = "") ->
   $.ajax
     url: Spree.pathFor("recently_viewed_products?product_id=" + productId),
     success: (data) ->

@@ -1,4 +1,4 @@
-module SpreeRecentlyViewed
+module SolidusRecentlyViewed
   module_function
 
   # Returns the version of the currently loaded SpreeRecentlyViewed as a
